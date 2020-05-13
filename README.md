@@ -6,6 +6,7 @@ The database consists of the multi-spectral values of pixels in 3x3 neighborhood
 the classification associated with the central pixel in each neighborhood. The aim is to predict this
 classification, given the multi-spectral values. In the sample database, the class of a pixel is coded as a
 number.
+
 The Landsat satellite data is one of the many sources of information available for a scene. The
 interpretation of a scene by integrating spatial data of diverse types and resolutions including
 multispectral and radar data, maps indicating topography, land use etc. is expected to assume significant
@@ -25,6 +26,7 @@ to a 3x3 square neighborhood of pixels completely contained within the 82x100 su
 contains the pixel values in the four spectral bands (converted to ASCII) of each of the 9 pixels in the 3x3
 neighborhood and a number indicating the classification label of the central pixel. The number is a code
 for the following classes:
+
 Number Class
 1 red soil
 2 cotton crop
@@ -35,6 +37,7 @@ Number Class
 7 very damp grey soil
 Note: There are no examples with class 6 in this dataset.
 2
+
 The data is given in random order and certain lines of data have been removed so you cannot reconstruct
 the original image from this dataset.
 In each line of data the four spectral values for the top-left pixel are given first followed by the four
