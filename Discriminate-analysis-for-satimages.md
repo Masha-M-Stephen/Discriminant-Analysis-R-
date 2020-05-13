@@ -1,17 +1,3 @@
-# Discriminant-Analysis-R-
-The goal here is to predict the type of ground cover from a satellite image broken up into pixels.
-
-
-
-
-
-title: "Discriminant Analysis of SATELLITE IMAGE DATA"
-author: "Masha"
-date: "5/13/2020"
-output: 
-  md_document:
-    variant: markdown_github
-
 Libraries needed
 
 ``` r
@@ -623,5 +609,3 @@ SUMMARY:
 I got the best model after fitting it with the optimal lambda and gamma.
 It had a misclassification rate of 0.107 on the training set and a
 misclassification rate of 0.125 on the test set.
-
-
