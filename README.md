@@ -1,7 +1,7 @@
 # Discriminant-Analysis-R-
 The goal here is to predict the type of ground cover from a satellite image broken up into pixels.
 
-<<<<<<< HEAD
+
 Description from UCI Machine Learning database:
 The database consists of the multi-spectral values of pixels in 3x3 neighborhoods in a satellite image, and
 the classification associated with the central pixel in each neighborhood. The aim is to predict this
